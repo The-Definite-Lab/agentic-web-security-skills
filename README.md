@@ -130,27 +130,49 @@ $$\text{When all CRITICAL and HIGH are resolved} \implies \text{Score} = \frac{\
 
 ## 💼 Why Hire Me? | Professional Security Consulting & Audits
 
-Hi, I'm **Pankaj Chauhan** ([@thepankajzx](https://github.com/thepankajzx)), Founder and Lead Security Architect at **[The Definite Lab](https://github.com/The-Definite-Lab)**.
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Digital_Architect-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://folio.thedefinite.one/)
+[![Enterprise Labs](https://img.shields.io/badge/Enterprise_Labs-The_Definite_Labs-blue?style=for-the-badge&logo=codewars&logoColor=white)](https://labs.thedefinite.one/)
+[![Chat on WhatsApp](https://img.shields.io/badge/WhatsApp-Direct_Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/917018168156?text=Hi%20Pankaj,%20I%20saw%20your%20Security%20Suite%20on%20GitHub.%20I%20want%20to%20secure%20my%20website/app.)
+[![Email](https://img.shields.io/badge/Email-studio@thedefinite.one-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:studio@thedefinite.one)
+
+</div>
+
+Hi, I'm **Pankaj Chauhan** ([@thepankajzx](https://github.com/thepankajzx)), Digital Systems Architect and Lead Security Engineer at **[The Definite Labs](https://labs.thedefinite.one/)**.
 
 I help startups, enterprises, and founders secure their Web Applications, SaaS platforms, APIs, and AI integrations **before** attackers exploit them.
 
+> ### 🔒 100% Production Security & Hardening Guarantee
+> *"We find and eliminate zero-days, logic flaws, BOLA/IDORs, and auth bypasses that automated scanners miss. From high-scale Next.js SaaS applications to complex Enterprise LMS architectures — we guarantee your platform is mathematically defended, penetration-tested, and launch-ready before malicious hackers strike."*
+
+---
+
 ### 🌟 Why Work With Me?
-1. **Real-World Adversarial Mindset:** I don't just run automated scans; I perform deep manual penetration testing and fault injection to find logic bugs, BOLA/IDORs, and auth bypasses that automated tools miss.
-2. **AI & Agentic Systems Specialist:** I understand how LLMs fail. I harden agent pipelines against prompt injection, jailbreaks, data exfiltration, and tool hallucination.
-3. **Deterministic DevSecOps:** I implement continuous, zero-override release gates (G0 to G8) directly into your CI/CD pipeline, ensuring your developers ship code fast without compromising security.
-4. **Actionable, Zero-Fluff Reports:** Every finding is delivered with a reproducible proof-of-concept (PoC), business risk assessment, and copy-paste remediation code.
+1. **Real-World Adversarial Mindset:** I don't just run automated scans; I perform deep manual penetration testing and fault injection to find business logic bugs, BOLA/IDORs, and auth bypasses that automated scanners miss.
+2. **AI & Agentic Systems Specialist:** I understand how LLMs fail. I harden agent pipelines against prompt injection, jailbreaks, data exfiltration, and tool hallucination (OWASP Agentic & LLM Top 10).
+3. **Enterprise & LMS Security Background:** Deep experience architecting and securing mission-critical enterprise systems, including high-scale EdTech & Moodle LMS infrastructures serving thousands of concurrent users.
+4. **Deterministic DevSecOps:** I implement continuous, zero-override release gates (G0 to G8) directly into your CI/CD pipeline, ensuring your developers ship code fast without compromising security.
+5. **Actionable, Zero-Fluff Reports:** Every finding is delivered with a reproducible proof-of-concept (PoC), business risk assessment, and copy-paste remediation code.
+
+---
 
 ### 🛠️ Services Offered:
 * 🔍 **Pre-Launch Web App & SaaS Penetration Testing:** Comprehensive security assessment of your Next.js, React, Node, Python, or fullstack web app.
+* 🎓 **Enterprise LMS & Educational Platform Security:** End-to-end security audits, plugin hardening, and IDOR prevention for Moodle, Canvas, and custom EdTech platforms.
 * 🤖 **AI & LLM Integration Security Audits:** Hardening AI workflows, custom GPTs, chatbot endpoints, and n8n automations against OWASP LLM Top 10 risks.
 * 🛡️ **Cloud Database & Auth Architecture:** Hardening Firebase Firestore Security Rules, Supabase Row-Level Security (RLS), and custom OAuth2/JWT auth flows.
 * 🚀 **Custom Agent Skills & DevSecOps Pipelines:** Building tailor-made AI agent skills and automated CI release gates for your development team.
 
+---
+
 ### 📬 Get in Touch (Let's Secure Your Product):
+* 🌐 **Personal Portfolio:** [folio.thedefinite.one](https://folio.thedefinite.one/)
+* 🏢 **Enterprise & Moodle Labs:** [labs.thedefinite.one](https://labs.thedefinite.one/)
+* 💬 **Direct WhatsApp:** [Chat with Pankaj on WhatsApp (+91 7018168156)](https://wa.me/917018168156?text=Hi%20Pankaj,%20I%20saw%20your%20Security%20Suite%20on%20GitHub.%20I%20want%20to%20secure%20my%20website/app.)
 * ✉️ **Direct Email:** [studio@thedefinite.one](mailto:studio@thedefinite.one)
 * 🐙 **GitHub Profile:** [@thepankajzx](https://github.com/thepankajzx)
-* 🏢 **Organization:** [@The-Definite-Lab](https://github.com/The-Definite-Lab)
-* 💬 *(Direct Phone / WhatsApp available upon email inquiry)*
+* 🏢 **GitHub Organization:** [@The-Definite-Lab](https://github.com/The-Definite-Lab)
 
 ---
 
