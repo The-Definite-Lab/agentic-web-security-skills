@@ -1,33 +1,37 @@
-# 🛡️ Antigravity Web Security Suite
-### Autonomous AI Security Framework & Agent Skills for Websites, SaaS & Web Applications
+# 🛡️ Agentic Web Security Suite
+### Universal AI Security Framework & Production-Grade Agent Skills for Web Applications, SaaS & APIs
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Agent Skills](https://img.shields.io/badge/Agent_Skills-Open_Standard-orange.svg)](https://openskills.app)
+[![Compatible With: Antigravity](https://img.shields.io/badge/Compatible-Antigravity_2.0-orange.svg)](#-cross-platform-installation)
+[![Compatible With: Cursor](https://img.shields.io/badge/Compatible-Cursor_IDE-blueviolet.svg)](#-cross-platform-installation)
+[![Compatible With: Claude Code](https://img.shields.io/badge/Compatible-Claude_Code-purple.svg)](#-cross-platform-installation)
 [![OWASP ASVS 5.0](https://img.shields.io/badge/OWASP-ASVS_5.0-red.svg)](https://owasp.org/www-project-application-security-verification-standard/)
-[![NIST SP 800-218](https://img.shields.io/badge/NIST-SSDF_800--218A-green.svg)](https://csrc.nist.gov/pubs/sp/800/218/final)
-[![AI Pipeline Security](https://img.shields.io/badge/OWASP-Agentic_2026-purple.svg)](https://owasp.org)
+[![NIST SP 800-218A](https://img.shields.io/badge/NIST-SSDF_800--218A-green.svg)](https://csrc.nist.gov/pubs/sp/800/218/final)
+[![AI Pipeline Security](https://img.shields.io/badge/OWASP-Agentic_2026-black.svg)](https://owasp.org)
 
 > **Stop asking LLMs whether your code is secure. Make "secure" something a CI pipeline can mathematically prove, cryptographically sign, and deterministically replay.**
+> 
+> Works out-of-the-box with **Google Antigravity**, **Cursor**, **Claude Code**, **Windsurf**, **GitHub Copilot**, and **ChatGPT/Claude Web**.
 
 ---
 
 ## ⚡ The Problem: "AI Security Theater"
 
-AI coding assistants (Google Antigravity, Cursor, Claude Code, GitHub Copilot) write code faster than ever. But they also ship critical vulnerabilities at machine speed:
-- **BOLA / IDOR:** Database queries missing tenant and ownership filters.
-- **Mass Assignment:** Passing raw request bodies directly into ORMs.
-- **Prompt Injection & ASI01:** Agent goals hijacked by malicious input or third-party data.
-- **Reward Hacking:** Agents modifying gating test files just to produce a green build.
+Modern AI coding agents write code faster than ever. But without strict, deterministic guardrails, they ship critical vulnerabilities at machine speed:
+- **BOLA / IDOR:** Database queries missing tenant and user-ownership filters.
+- **Mass Assignment:** Passing raw request payloads directly into ORMs.
+- **Prompt Injection & ASI01:** Agent objectives hijacked by untrusted input or third-party web content.
+- **Reward Hacking:** Coding agents modifying gating test files just to produce a green build.
 
-**This repository provides an enforceable, deterministic security framework and a suite of 9 production-grade Agent Skills specifically tailored for modern Websites, Web Applications, SaaS platforms, and APIs.**
+**Agentic Web Security Suite** solves this by establishing an enforceable, deterministic security pipeline. It replaces prose-only AI compliance with machine-signed evidence, independent adversarial red teaming, and non-negotiable release gates.
 
 ---
 
-## 📦 What's Inside: 9 Production-Grade Agent Skills
+## 📦 What's Inside: 9 Universal Agent Skills
 
-All skills follow the open [`SKILL.md`](https://openskills.app) standard and work seamlessly in **Google Antigravity**, **Cursor**, **Claude Code**, and agentic IDEs:
+All skills follow the open [`SKILL.md`](https://openskills.app) standard and can be plugged directly into any modern AI coding assistant:
 
-| Skill | Role | Primary Focus | Slash Trigger |
+| Skill | Role | Primary Focus | Trigger Command |
 | :--- | :--- | :--- | :--- |
 | 🛡️ [`security-builder`](skills/security-builder/) | **Builder Agent** | Secure-by-design implementation (SEC-AUTHZ, SEC-INJ, SEC-OUT, SSRF, IDOR). | `/builder` |
 | ⚔️ [`security-auditor`](skills/security-auditor/) | **Auditor Agent** | Adversarial Red Teaming & Fault Injection (Mode A & Mode B) with holdout test suites. | `/security-auditor` |
@@ -67,26 +71,31 @@ flowchart TD
 
 ---
 
-## 🚀 Quickstart & Installation
+## 🛠️ Cross-Platform Installation
 
-### Option 1: Install via Skills Runner (Recommended)
-You can install these skills directly into your local agent environment using the standard skills runner:
-
+### 1. Google Antigravity
+Install the suite directly into your Antigravity global environment:
 ```bash
-# Add the entire security suite to your Antigravity agent
-npx skills add thepankajzx/antigravity-web-security-skills --agent antigravity
-
-# Or install for Claude Code
-npx skills add thepankajzx/antigravity-web-security-skills --agent claude-code
-
-# Or install for Cursor
-npx skills add thepankajzx/antigravity-web-security-skills --agent cursor
+npx skills add The-Definite-Lab/agentic-web-security-skills --agent antigravity
 ```
 
-### Option 2: Clone Directly into Your Project
+### 2. Claude Code
 ```bash
-git clone https://github.com/thepankajzx/antigravity-web-security-skills.git .skills/security
+npx skills add The-Definite-Lab/agentic-web-security-skills --agent claude-code
 ```
+
+### 3. Cursor IDE
+You can either install via the skills CLI:
+```bash
+npx skills add The-Definite-Lab/agentic-web-security-skills --agent cursor
+```
+Or clone directly into your project's `.cursorrules` or `.skills/` directory:
+```bash
+git clone https://github.com/The-Definite-Lab/agentic-web-security-skills.git .skills/security
+```
+
+### 4. Windsurf / GitHub Copilot / ChatGPT / Claude Web (Direct Prompt Mode)
+Simply copy the relevant skill file (e.g. `skills/security-auditor/SKILL.md`) and paste it as custom instructions or system prompt at the start of your session.
 
 ---
 
@@ -119,21 +128,31 @@ $$\text{When all CRITICAL and HIGH are resolved} \implies \text{Score} = \frac{\
 
 ---
 
-## 💼 Professional Security Services & Consulting
+## 💼 Why Hire Me? | Professional Security Consulting & Audits
 
-Are you building a Web Application, SaaS platform, E-commerce store, or AI-powered product and need to ensure it is rock-solid and secure before launch?
+Hi, I'm **Pankaj Chauhan** ([@thepankajzx](https://github.com/thepankajzx)), Founder and Lead Security Architect at **[The Definite Lab](https://github.com/The-Definite-Lab)**.
 
-I provide professional security engineering and adversarial testing services:
-* 🔍 **Web Application Penetration Testing & Red Teaming:** Finding IDORs, auth bypasses, business logic flaws, and injection sinks before attackers do.
-* 🤖 **AI & LLM Integration Security Audits:** Hardening agents, prompt injection prevention, system prompt protection, and RAG data isolation.
-* 🛡️ **DevSecOps & CI Release Pipeline Architecture:** Implementing deterministic release gates (G0-G8), signed SLSA provenance, and automated SAST/SCA/DAST pipelines.
-* ☁️ **Cloud Database & Auth Hardening:** Production Firestore security rules, Supabase RLS policies, and OAuth/JWT architectures.
+I help startups, enterprises, and founders secure their Web Applications, SaaS platforms, APIs, and AI integrations **before** attackers exploit them.
 
-### 📬 Get in Touch:
-- **GitHub:** [@thepankajzx](https://github.com/thepankajzx)
-- **Discussions:** Feel free to open an issue or discussion on this repository for collaboration, enterprise consulting, or custom security skill development.
+### 🌟 Why Work With Me?
+1. **Real-World Adversarial Mindset:** I don't just run automated scans; I perform deep manual penetration testing and fault injection to find logic bugs, BOLA/IDORs, and auth bypasses that automated tools miss.
+2. **AI & Agentic Systems Specialist:** I understand how LLMs fail. I harden agent pipelines against prompt injection, jailbreaks, data exfiltration, and tool hallucination.
+3. **Deterministic DevSecOps:** I implement continuous, zero-override release gates (G0 to G8) directly into your CI/CD pipeline, ensuring your developers ship code fast without compromising security.
+4. **Actionable, Zero-Fluff Reports:** Every finding is delivered with a reproducible proof-of-concept (PoC), business risk assessment, and copy-paste remediation code.
+
+### 🛠️ Services Offered:
+* 🔍 **Pre-Launch Web App & SaaS Penetration Testing:** Comprehensive security assessment of your Next.js, React, Node, Python, or fullstack web app.
+* 🤖 **AI & LLM Integration Security Audits:** Hardening AI workflows, custom GPTs, chatbot endpoints, and n8n automations against OWASP LLM Top 10 risks.
+* 🛡️ **Cloud Database & Auth Architecture:** Hardening Firebase Firestore Security Rules, Supabase Row-Level Security (RLS), and custom OAuth2/JWT auth flows.
+* 🚀 **Custom Agent Skills & DevSecOps Pipelines:** Building tailor-made AI agent skills and automated CI release gates for your development team.
+
+### 📬 Get in Touch (Let's Secure Your Product):
+* ✉️ **Direct Email:** [studio@thedefinite.one](mailto:studio@thedefinite.one)
+* 🐙 **GitHub Profile:** [@thepankajzx](https://github.com/thepankajzx)
+* 🏢 **Organization:** [@The-Definite-Lab](https://github.com/The-Definite-Lab)
+* 💬 *(Direct Phone / WhatsApp available upon email inquiry)*
 
 ---
 
 ## 📄 License
-This project is open-source under the [MIT License](LICENSE). Contributions, stars, and pull requests are warmly welcomed!
+This project is open-source under the [MIT License](LICENSE). Contributions, stars, and feedback are warmly welcomed!
